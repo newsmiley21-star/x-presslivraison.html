@@ -274,8 +274,8 @@
         <p class="text-xs text-slate-500 mb-5 leading-relaxed">Accédez à votre espace complet de livraisons, de formulaires et de statistiques d'administration.</p>
         
         <!-- Le gros bouton brillant d'ouverture vers votre Google Site avec effet Ripple -->
-        <a href="https://newsmiley21-star.github.io/index.html/#suivi-des-gains" target="_blank" class="ripple-btn w-full bg-[#4285f4] hover:bg-[#3367d6] text-white font-bold py-4 px-6 rounded-2xl shadow-lg shadow-blue-500/15 flex items-center justify-between group">
-          <span class="text-sm font-extrabold tracking-wide">ACCÉDER À CT241.apk</span>
+        <a href="https://newsmiley21-star.github.io/index.html/#suivi-des-gains" target="_blank" class="ripple-btn w-full bg-[#4285f4] hover:bg-[#3367d6] text-white font-bold py-4 px-6 rounded-2xl shadow-lg shadow-green-500/15 flex items-center justify-between group">
+          <span class="text-sm font-extrabold tracking-wide">COMMENCER </span>
           <div class="flex items-center space-x-1.5">
             <span class="text-xs text-white/95 group-hover:underline">Ouvrir</span>
             <svg class="w-4 h-4 text-white transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
