@@ -345,17 +345,17 @@
       // --- AJOUTEZ VOS AUTRES APPLICATIONS / PUBLICITÉS ICI ---
       partnerApps: [
         {
-          name: "Portail Administratif",
-          desc: "Fiches de suivi des tâches en temps réel.",
-          logoUrl: "https://i.ibb.co/68gZbyz/whatsapp-logo-placeholder.png",
-          link: "https://sites.google.com/u/0/d/1Xbyk5dnDXdAllJMw0D39H9yruQ8IVPVU/p/1AsH_osU61mXn-Xwend28C_x789tx897n/publishview",
+          name: "Notre site-web",
+          desc: "vitrine de l'entreprise.",
+          logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
+          link: "https://sites.google.com/view/x-press-livraison-gabon-/accueil?authuser=0",
           accentColor: "#34a853" // Couleur de l'icône de flèche (Vert Google)
         },
         {
-          name: "Outil de Statistiques",
+          name: "suivre un colis",
           desc: "Graphiques et KPIs d'activité globale.",
-          logoUrl: "https://i.ibb.co/68gZbyz/whatsapp-logo-placeholder.png",
-          link: "https://wikipedia.org",
+          logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
+          link: "https://newsmiley21-star.github.io/consultation.html/",
           accentColor: "#ea4335" // Couleur de l'icône de flèche (Rouge Google)
         }
       ]
