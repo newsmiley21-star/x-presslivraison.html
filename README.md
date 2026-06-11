@@ -187,7 +187,7 @@
       <div class="ai-glow-container">
         <div class="ai-glow-outer"></div>
         <div class="ai-glow-core"></div>
-        <img id="splash-logo" src="https://i.ibb.co/68gZbyz/whatsapp-logo-placeholder.png" alt="Logo" class="absolute w-16 h-16 rounded-2xl object-cover z-10 shadow-2xl border-2 border-white/20">
+        <img id="splash-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="Logo" class="absolute w-16 h-16 rounded-2xl object-cover z-10 shadow-2xl border-2 border-white/20">
       </div>
 
       <h2 class="text-xl font-black tracking-widest text-white mt-8 uppercase flex items-center gap-2">
@@ -220,7 +220,7 @@
 
       <!-- En-tête de l'application -->
       <div class="flex items-center space-x-4 mb-6 relative z-10">
-        <img id="app-logo" src="https://i.ibb.co/68gZbyz/whatsapp-logo-placeholder.png" alt="Logo principal" class="w-14 h-14 rounded-2xl object-cover border border-white/10 shadow-lg">
+        <img id="app-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="Logo principal" class="w-14 h-14 rounded-2xl object-cover border border-white/10 shadow-lg">
         <div>
           <h1 id="app-name" class="text-lg font-black text-white tracking-tight leading-none">Mon Portail Hub</h1>
           <span class="text-[11px] text-yellow-400 font-semibold tracking-wider uppercase font-mono mt-1 inline-block">Tableau de bord actif</span>
@@ -310,16 +310,16 @@
       // --- AJOUTEZ VOS AUTRES APPLICATIONS / PUBLICITÉS ICI ---
       partnerApps: [
         {
-          name: "Portail Administratif",
-          desc: "Fiches de suivi des tâches en temps réel.",
-          logoUrl: "https://i.ibb.co/68gZbyz/whatsapp-logo-placeholder.png",
-          link: "https://sites.google.com/u/0/d/1Xbyk5dnDXdAllJMw0D39H9yruQ8IVPVU/p/1AsH_osU61mXn-Xwend28C_x789tx897n/publishview"
+          name: "Demande de livraison",
+          desc: "Fiches de commande en temps réel.",
+          logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
+          link: "https://newsmiley21-star.github.io/1.2.html/"
         },
         {
-          name: "Outil de Statistiques",
-          desc: "Graphiques et KPIs d'activité globale.",
-          logoUrl: "https://i.ibb.co/68gZbyz/whatsapp-logo-placeholder.png",
-          link: "https://wikipedia.org"
+          name: "Suivre un colis",
+          desc: "Activité globale.",
+          logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
+          link: "https://newsmiley21-star.github.io/consultation.html/"
         }
       ]
     };
