@@ -217,7 +217,7 @@
       <div class="ai-glow-container">
         <div class="ai-glow-outer"></div>
         <div class="ai-glow-core"></div>
-        <img id="splash-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="Logo" class="absolute w-33 h-25 rounded-[1.3rem] object-cover z-10 shadow-xl border-2 border-white">
+        <img id="splash-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="Logo" class="absolute w-27 h-20 rounded-[1.3rem] object-cover z-10 shadow-xl border-2 border-white">
       </div>
 
       <h2 class="text-lg font-extrabold tracking-widest text-slate-800 mt-8 uppercase flex items-center gap-2">
