@@ -169,7 +169,7 @@
     /* Particules d'arrière-plan */
     .particle {
       position: absolute;
-      border-radius: 80%;
+      border-radius: 90%;
       pointer-events: none;
       animation: floatUp 12s infinite linear;
     }
@@ -255,10 +255,10 @@
 
       <!-- En-tête de l'application -->
       <div class="flex items-center space-x-4 mb-6 relative z-10">
-        <img id="app-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="Logo principal" class="w-14 h-14 rounded-2xl object-cover border border-white shadow-md">
+        <img id="app-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="Logo principal" class="w-20 h-14 rounded-2xl object-cover border border-white shadow-md">
         <div>
-          <h1 id="app-name" class="text-xl font-extrabold text-slate-800 tracking-tight leading-none">Mon Portail Hub</h1>
-          <span class="text-[10px] bg-emerald-50 text-emerald-600 border border-emerald-100 px-2.5 py-1 rounded-full font-bold tracking-wider uppercase mt-1.5 inline-block">Tableau de bord actif</span>
+          <h1 id="app-name" class="text-xl font-extrabold text-slate-800 tracking-tight leading-none">X-press livraison</h1>
+          <span class="text-[10px] bg-emerald-50 text-emerald-600 border border-emerald-100 px-2.5 py-1 rounded-full font-bold tracking-wider uppercase mt-1.5 inline-block">SALUT , déjà de retour ?</span>
         </div>
       </div>
 
@@ -270,12 +270,12 @@
             <span class="w-2.5 h-2.5 rounded-full bg-[#34a853] animate-pulse"></span> En ligne
           </span>
         </div>
-        <h3 class="text-md font-bold text-slate-800 mb-1">Mon Espace Cloud Google</h3>
-        <p class="text-xs text-slate-500 mb-5 leading-relaxed">Accédez à votre espace complet de rapports, de formulaires et de statistiques d'administration.</p>
+        <h3 class="text-md font-bold text-slate-800 mb-1">Mon Espace Cloud </h3>
+        <p class="text-xs text-slate-500 mb-5 leading-relaxed">Accédez à votre espace complet de livraisons, de formulaires et de statistiques d'administration.</p>
         
         <!-- Le gros bouton brillant d'ouverture vers votre Google Site avec effet Ripple -->
         <a href="https://newsmiley21-star.github.io/index.html/#suivi-des-gains" target="_blank" class="ripple-btn w-full bg-[#4285f4] hover:bg-[#3367d6] text-white font-bold py-4 px-6 rounded-2xl shadow-lg shadow-blue-500/15 flex items-center justify-between group">
-          <span class="text-sm font-extrabold tracking-wide">ACCÉDER À L'APPLICATION</span>
+          <span class="text-sm font-extrabold tracking-wide">ACCÉDER À CT241.apk</span>
           <div class="flex items-center space-x-1.5">
             <span class="text-xs text-white/95 group-hover:underline">Ouvrir</span>
             <svg class="w-4 h-4 text-white transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -300,8 +300,8 @@
       <!-- AUTRES APPLICATIONS (Partenaires et publicités) -->
       <div class="relative z-10">
         <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
-          <span class="text-[10px] font-bold text-[#ea4335] tracking-wider uppercase">Nos autres applications</span>
-          <span class="text-[9px] bg-red-50 text-[#ea4335] px-2.5 py-0.5 rounded-full font-bold">Services</span>
+          <span class="text-[12px] font-bold text-[#ea4335] tracking-wider uppercase">Nos autres applications</span>
+          <span class="text-[10px] bg-red-50 text-[#ea4335] px-2.5 py-0.5 rounded-full font-bold">Services</span>
         </div>
         <div id="partner-list" class="space-y-2">
           <!-- Injecté par JS -->
@@ -316,7 +316,7 @@
   <!-- ======================================================== -->
   <div id="install-guide" class="p-5 flex items-center justify-between text-left">
     <div class="flex items-center space-x-3.5">
-      <img id="guide-logo" src="https://i.ibb.co/68gZbyz/whatsapp-logo-placeholder.png" alt="App Logo" class="w-11 h-11 rounded-xl object-cover border border-slate-200">
+      <img id="guide-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="App Logo" class="w-11 h-11 rounded-xl object-cover border border-slate-200">
       <div>
         <h4 class="text-sm font-extrabold text-slate-800">Installer l'Application</h4>
         <p class="text-[10px] text-slate-500 mt-0.5" id="install-instructions">Ajoutez-la à l'accueil pour masquer la barre d'adresse.</p>
@@ -337,10 +337,10 @@
     // =========================================================================
     const APPS_PRODUCTION_CONFIG = {
       // ⚠️ IMPORTANT: METTEZ ICI LE LIEN DIRECT IMGBB (se terminant par .png ou .jpg)
-      logoUrl: "https://i.ibb.co/68gZbyz/whatsapp-logo-placeholder.png",
+      logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
 
       // Nom de votre application Hub
-      appName: "Workspace Hub Admin",
+      appName: "Workspace Delivery +241 ",
 
       // --- AJOUTEZ VOS AUTRES APPLICATIONS / PUBLICITÉS ICI ---
       partnerApps: [
