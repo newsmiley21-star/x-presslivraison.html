@@ -169,14 +169,14 @@
     /* Particules d'arrière-plan */
     .particle {
       position: absolute;
-      border-radius: 50%;
+      border-radius: 80%;
       pointer-events: none;
       animation: floatUp 12s infinite linear;
     }
     @keyframes floatUp {
-      0% { transform: translateY(110vh) scale(0); opacity: 0; }
-      10% { opacity: 0.3; }
-      90% { opacity: 0.3; }
+      0% { transform: translateY(110vh) scale(0); opacity: 2; }
+      10% { opacity: 0.5; }
+      90% { opacity: 0.8; }
       100% { transform: translateY(-10vh) scale(1); opacity: 0; }
     }
 
