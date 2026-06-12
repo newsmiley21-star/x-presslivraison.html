@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>Portail Workspace Privé - CT241</title>
+  <title>Portail Workspace Privé - X-press delevery</title>
   
   <!-- Importation de la police Google Plus Jakarta Sans (Style Google Pixel) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -456,17 +456,17 @@
 
       partnerApps: [
         {
-          name: "Notre boutique en ligne",
+          name: "Site Web",
           desc: "E-commerce & commandes nationales.",
           logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
-          link: "https://sites.google.com/view/tpsmarket241/accueil?authuser=0",
+          link: "https://sites.google.com/view/x-press-livraison-gabon-/accueil",
           accentColor: "#007fff" 
         },
         {
-          name: "Demander un devis",
+          name: "Demander une livraison",
           desc: "Expéditions à travers le Gabon.",
           logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
-          link: "https://newsmiley21-star.github.io/commandes.html",
+          link: "https://newsmiley21-star.github.io/1.2.html/",
           accentColor: "#36a100" 
         },
         {
@@ -476,13 +476,6 @@
           link: "https://newsmiley21-star.github.io/consultation.html/",
           accentColor: "#007fff" 
         },
-        {
-          name: "Comptabilité & Management",
-          desc: "Analytiques et performances logistiques.",
-          logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg ",
-          link: "https://newsmiley21-star.github.io/CG241/",
-          accentColor: "#ffcf00" 
-        }
       ]
     };
 
