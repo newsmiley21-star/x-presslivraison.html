@@ -9,59 +9,46 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Lucide Icons pour des visuels modernes -->
-  <script src="https://unpkg.com/lucide@latest"></script>
 
-  <!-- 
-    CORRECTION ICONES PC, SMARTPHONE & TABLETTE : 
-    Déclaration en DUR de toutes les tailles d'icônes indispensables pour PC (Windows/Mac), iOS (iPhone) et Android.
-  -->
-  <!-- Favicons standards pour les onglets PC et les navigateurs de bureau -->
-  <link rel="icon" type="image/jpeg" sizes="16x16" href="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg">
-  <link rel="icon" type="image/jpeg" sizes="32x32" href="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg">
-  <link rel="icon" type="image/jpeg" sizes="48x48" href="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg">
-  <link rel="icon" type="image/jpeg" sizes="128x128" href="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg">
+  <meta name="theme-color" content="#36a100">
   
-  <!-- Icône de secours absolue pour iOS (iPhone/iPad) et raccourcis de bureau PC -->
-  <link rel="apple-touch-icon" href="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg">
-  <link rel="apple-touch-icon" sizes="152x152" href="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg">
-  <link rel="shortcut icon" type="image/jpeg" href="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg">
-
+  <!-- Compatibilité iOS / Apple pour l'icône de l'écran d'accueil -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Workspace">
-  <meta name="theme-color" content="#ffffff">
-  
-  <!-- Manifeste PWA généré à la volée incluant des dimensions pour PC et mobiles -->
+  <link id="apple-touch-icon" rel="apple-touch-icon" href="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg">
+
+  <!-- Manifeste PWA généré à la volée via un Blob (Logique WhatsApp du Fichier 2) -->
   <script>
     const manifest = {
-        "name": "Livraison de colis",
-        "short_name": "Workspace",
-        "description": "Portail Workspace Privé de Livraison Gabon",
+        "name": "CT241 - Workspace Delivery",
+        "short_name": "X-PRESS LIVRAISON Workspace",
+        "description": "Portail des livraison ",
         "start_url": "./index.html",
         "display": "standalone",
-        "background_color": "#ffffff",
+        "background_color": "#f8fafc",
         "theme_color": "#36a100",
         "icons": [
             {
                 "src": "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
-                "sizes": "128x128",
-                "type": "image/jpeg",
-                "purpose": "any"
-            },
-            {
-                "src": "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
                 "sizes": "192x192",
-                "type": "image/jpeg",
+                "type": "image/png",
                 "purpose": "any maskable"
             },
             {
                 "src": "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
                 "sizes": "512x512",
-                "type": "image/jpeg",
+                "type": "image/png",
                 "purpose": "any"
+            }
+        ],
+        "screenshots": [
+            {
+                "src": "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
+                "sizes": "1024x1024",
+                "type": "image/png",
+                "form_factor": "wide",
+                "label": "Dashboard X-PRESS Gabon"
             }
         ]
     };
@@ -96,13 +83,12 @@
     }
   </script>
 
+  <!-- Styling CSS de la plateforme et des animations -->
   <style>
     body {
       background-color: #f8fafc; /* Blanc/gris doux haut de gamme */
       overflow-x: hidden;
       font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      -webkit-tap-highlight-color: transparent;
-      user-select: none;
     }
 
     /* Écran de démarrage style Gemini Google Pixel 9 Pro XL (Mode Clair) */
@@ -181,7 +167,7 @@
     .progress-bar-fill {
       height: 100%;
       width: 0%;
-      background: linear-gradient(90deg, #36a100, #ffcf00, #007fff);
+      background: linear-gradient(90deg, #4285f4, #ea4335, #fbbc05, #34a853);
       border-radius: 10px;
       transition: width 0.1s linear;
     }
@@ -243,22 +229,25 @@
       100% { transform: translateY(-10vh) scale(1); opacity: 0; }
     }
 
-    /* Bannière d'aide à l'installation style PWA WhatsApp (Drapeau Gabonais) */
-    #install-banner {
+    /* Bannière d'aide à l'installation style PWA WhatsApp */
+    #install-guide {
       position: fixed;
       bottom: 24px;
-      left: 16px;
-      right: 16px;
-      background: linear-gradient(135deg, #36a100 0%, #ffcf00 50%, #007fff 100%);
-      padding: 2px;
-      border-radius: 24px;
-      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+      left: 50%;
+      transform: translateX(-50%) translateY(160px);
+      width: 92%;
+      max-width: 420px;
       z-index: 150;
-      transform: translateY(200px);
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      border-radius: 28px;
+      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
     }
-    #install-banner.show {
-      transform: translateY(0);
+    #install-guide.show {
+      transform: translateX(-50%) translateY(0);
     }
 
     .gabon-gradient {
@@ -294,7 +283,7 @@
 </head>
 <body class="text-slate-800 min-h-screen flex flex-col justify-between">
 
-  <!-- Particules d'ambiance en arrière-plan -->
+  <!-- Particules d'ambiance en arrière-plan (Aux couleurs Google) -->
   <div id="particle-container" class="absolute inset-0 overflow-hidden pointer-events-none z-0"></div>
 
   <!-- Conteneur des toasts de notification -->
@@ -316,9 +305,9 @@
       <h2 class="text-lg font-extrabold tracking-widest text-slate-800 mt-8 uppercase flex items-center gap-2">
         <span class="tracking-[0.25em]">Chargement</span>
         <span class="flex space-x-1">
-          <span class="w-1.5 h-1.5 rounded-full bg-[#36a100] animate-bounce" style="animation-delay: 0.1s"></span>
-          <span class="w-1.5 h-1.5 rounded-full bg-[#ffcf00] animate-bounce" style="animation-delay: 0.2s"></span>
-          <span class="w-1.5 h-1.5 rounded-full bg-[#007fff] animate-bounce" style="animation-delay: 0.3s"></span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#4285f4] animate-bounce" style="animation-delay: 0.1s"></span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ea4335] animate-bounce" style="animation-delay: 0.2s"></span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#fbbc05] animate-bounce" style="animation-delay: 0.3s"></span>
         </span>
       </h2>
       <p id="splash-status" class="text-xs text-slate-500 mt-2 font-medium tracking-wide">Sécurisation du tunnel de données...</p>
@@ -331,7 +320,7 @@
 
     <!-- Pied de page chargement Google Security -->
     <div class="text-[10px] text-slate-400 tracking-wider uppercase font-semibold z-10 flex items-center gap-1">
-      <svg class="w-3.5 h-3.5 text-[#36a100]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M2.166 4.9L10 1.154l7.834 3.746A1 1 0 0118.5 5.793v5.187a9 9 0 01-4.947 8.06l-3.236 1.624a1 1 0 01-.834 0l-3.236-1.624a9 9 0 01-4.947-8.06V5.793a1 1 0 01.547-.893zm8.334 10.3l4-4a1 1 0 10-1.414-1.414L10 12.586l-1.586-1.586a1 1 0 00-1.414 1.414l2.5 2.5a1 1 0 001.414 0z" clip-rule="evenodd"></path></svg>
+      <svg class="w-3.5 h-3.5 text-[#34a853]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M2.166 4.9L10 1.154l7.834 3.746A1 1 0 0118.5 5.793v5.187a9 9 0 01-4.947 8.06l-3.236 1.624a1 1 0 01-.834 0l-3.236-1.624a9 9 0 01-4.947-8.06V5.793a1 1 0 01.547-.893zm8.334 10.3l4-4a1 1 0 10-1.414-1.414L10 12.586l-1.586-1.586a1 1 0 00-1.414 1.414l2.5 2.5a1 1 0 001.414 0z" clip-rule="evenodd"></path></svg>
       <span>Google Cloud Secured</span>
     </div>
   </div>
@@ -339,15 +328,15 @@
   <!-- ======================================================== -->
   <!-- 2. TABLEAU DE BORD PRINCIPAL (PORTAIL DE PRODUCTION)     -->
   <!-- ======================================================== -->
-  <main id="main-app-container" class="w-full max-w-md mx-auto px-4 py-6 z-10 hidden my-auto animate-fade-in">
+  <main id="main-app-container" class="w-full max-w-md mx-auto px-4 py-6 z-10 hidden my-auto">
     <div class="glass-card-light rounded-[2.5rem] p-6 shadow-2xl relative overflow-hidden">
-      <!-- Halos lumineux de fond -->
+      <!-- Halos lumineux légers de fond aux couleurs Google -->
       <div class="absolute -top-24 -left-24 w-48 h-48 rounded-full bg-[#4285f4]/10 blur-3xl pointer-events-none"></div>
       <div class="absolute -bottom-24 -right-24 w-48 h-48 rounded-full bg-[#34a853]/10 blur-3xl pointer-events-none"></div>
 
       <!-- En-tête de l'application -->
       <div class="flex items-center space-x-4 mb-6 relative z-10">
-        <img id="app-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="Logo" class="w-16 h-16 rounded-2xl object-cover border border-white shadow-md">
+        <img id="app-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="Logo principal" class="w-16 h-16 rounded-2xl object-cover border border-white shadow-md">
         <div>
           <h1 id="app-name" class="text-xl font-extrabold text-slate-800 tracking-tight leading-none">X-press livraison</h1>
           <span class="text-[10px] bg-emerald-50 text-emerald-600 border border-emerald-100 px-2.5 py-1 rounded-full font-bold tracking-wider uppercase mt-1.5 inline-block">SALUT , déjà de retour ?</span>
@@ -359,13 +348,14 @@
         <div class="flex justify-between items-start mb-3">
           <span class="text-[10px] bg-blue-50 text-[#4285f4] border border-blue-100 px-2.5 py-1 rounded-full font-bold uppercase tracking-wider">Espace Workspace</span>
           <span class="text-[11px] text-slate-500 font-semibold flex items-center gap-1.5">
-            <span class="w-2.5 h-2.5 rounded-full bg-[#36a100] animate-pulse"></span> En ligne
+            <span class="w-2.5 h-2.5 rounded-full bg-[#34a853] animate-pulse"></span> En ligne
           </span>
         </div>
         <h3 class="text-md font-bold text-slate-800 mb-1">Mon Espace Cloud</h3>
         <p class="text-xs text-slate-500 mb-5 leading-relaxed">Accédez à votre espace complet de livraisons, de formulaires et de statistiques d'administration.</p>
         
-        <button onclick="openInAppViewer('https://newsmiley21-star.github.io/index.html/#suivi-des-gains', 'Espace Workspace')" class="ripple-btn w-full bg-[#36a100] hover:bg-[#2c8000] text-white font-bold py-4 px-6 rounded-2xl shadow-lg flex items-center justify-between group">
+        <!-- Le gros bouton brillant d'ouverture vers votre Google Site avec effet Ripple -->
+        <button onclick="openInAppViewer('https://newsmiley21-star.github.io/index.html/#suivi-des-gains', 'Espace Workspace')" class="ripple-btn w-full bg-[#4285f4] hover:bg-[#3367d6] text-white font-bold py-4 px-6 rounded-2xl shadow-lg shadow-green-500/15 flex items-center justify-between group">
           <span class="text-sm font-extrabold tracking-wide">COMMENCER</span>
           <div class="flex items-center space-x-1.5">
             <span class="text-xs text-white/95 group-hover:underline">Ouvrir</span>
@@ -380,19 +370,19 @@
       <div class="bg-slate-50/50 border border-slate-100 rounded-3xl p-5 mb-5 relative z-10">
         <div class="flex items-center justify-between mb-3">
           <h4 class="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
-            <svg class="w-4 h-4 text-[#ffcf00]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+            <svg class="w-4 h-4 text-[#fbbc05]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
             Mémo rapide de suivi
           </h4>
           <span class="text-[9px] text-slate-400 uppercase font-bold tracking-widest">Sauvegarde automatique</span>
         </div>
-        <textarea id="app-notepad" placeholder="Écrivez vos notes de suivi temporaires ici..." class="w-full h-20 bg-white border border-slate-200 rounded-xl p-3 text-xs text-slate-700 focus:outline-none focus:border-[#36a100] focus:ring-1 focus:ring-[#36a100] resize-none transition-all"></textarea>
+        <textarea id="app-notepad" placeholder="Écrivez vos notes de suivi temporaires ici..." class="w-full h-20 bg-white border border-slate-200 rounded-xl p-3 text-xs text-slate-700 focus:outline-none focus:border-[#4285f4] focus:ring-1 focus:ring-[#4285f4] resize-none transition-all"></textarea>
       </div>
 
       <!-- AUTRES APPLICATIONS (Partenaires et publicités) -->
       <div class="relative z-10">
         <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
-          <span class="text-[12px] font-bold text-slate-600 tracking-wider uppercase">Nos autres applications</span>
-          <span class="text-[10px] bg-green-50 text-[#36a100] px-2.5 py-0.5 rounded-full font-bold">Services</span>
+          <span class="text-[12px] font-bold text-[#ea4335] tracking-wider uppercase">Nos autres applications</span>
+          <span class="text-[10px] bg-red-50 text-[#ea4335] px-2.5 py-0.5 rounded-full font-bold">Services</span>
         </div>
         <div id="partner-list" class="space-y-2">
           <!-- Injecté par JS -->
@@ -433,23 +423,21 @@
   </div>
 
   <!-- ======================================================================= -->
-  <!-- 4. BANNIÈRE D'INSTALLATION MULTI-PLATEFORME (PC, ANDROID & IOS)         -->
+  <!-- 4. BANNIÈRE D'INSTALLATION WHATSAPP-LIKE (Bannière install intégrée)  -->
   <!-- ======================================================================= -->
-  <div id="install-banner" class="p-0.5 rounded-3xl shadow-2xl z-[60]">
-      <div class="bg-white p-4 rounded-[1.4rem] flex items-center justify-between">
-          <div class="flex items-center gap-4">
-              <div class="bg-slate-50 p-1.5 rounded-xl border border-slate-100">
-                  <img id="guide-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" class="w-10 h-10 object-cover rounded-lg">
-              </div>
-              <div>
-                  <p class="font-black text-slate-800 text-sm">Installer l'App</p>
-                  <p id="install-instructions" class="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Ajouter à l'accueil</p>
-              </div>
-          </div>
-          <button id="btn-install" onclick="executeInstallationPrompt()" class="gabon-gradient text-white px-5 py-2.5 rounded-xl text-xs font-black shadow-lg active:scale-95 transition-all">
-              INSTALLER
-          </button>
+  <div id="install-guide" class="p-5 flex items-center justify-between text-left">
+    <div class="flex items-center space-x-3.5">
+      <div class="p-1.5 bg-slate-100 rounded-2xl border border-slate-200">
+        <img id="guide-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="App Logo" class="w-10 h-10 rounded-xl object-contain">
       </div>
+      <div>
+        <h4 class="text-sm font-extrabold text-slate-800">Installer X-PRESS LIVRAISON</h4>
+        <p class="text-[10px] text-slate-500 mt-0.5" id="install-instructions">L'app officielle de livraison du Gabon.</p>
+      </div>
+    </div>
+    <button id="btn-install" onclick="executeInstallationPrompt()" class="ripple-btn gabon-gradient text-white text-xs font-black px-5 py-3 rounded-2xl transition-all shadow-md active:scale-95">
+      INSTALLER
+    </button>
   </div>
 
   <!-- Pied de page -->
@@ -461,15 +449,16 @@
   <!-- 5. LOGIQUE SCRIPT & CONFIGURATIONS         -->
   <!-- ========================================== -->
   <script>
+    // Configuration dynamique des données du portail
     const APPS_PRODUCTION_CONFIG = {
       logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
       appName: "Workspace Delivery +241",
 
       partnerApps: [
         {
-          name: "Site WEB",
-          desc: "En savoir plus.",
-          logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
+          name: "Site Web",
+          desc: "",
+          logoUrl: "https://ibb.co/Pv5HMvSL][img]https://i.ibb.co/DH72YHqJ/image.png",
           link: "https://sites.google.com/view/x-press-livraison-gabon-/accueil?read_current=1",
           accentColor: "#007fff" 
         },
@@ -483,28 +472,32 @@
         {
           name: "Suivre mon colis",
           desc: "Consultation et suivi en temps réel.",
-          logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
+          logoUrl: "https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png",
           link: "https://newsmiley21-star.github.io/consultation.html/",
           accentColor: "#007fff" 
         },
         {
-          name: "CONTACT",
-          desc: "Nous contacter pour signaler un probleme.",
-          logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
-          link: "https://wa.me/24177736065",
+          name: "Comptabilité & Management",
+          desc: "Analytiques et performances logistiques.",
+          logoUrl: "https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png",
+          link: "https://newsmiley21-star.github.io/CG241/",
           accentColor: "#ffcf00" 
         }
       ]
     };
 
-    let deferredPrompt; 
+    let deferredPrompt; // Pour capturer l'événement natif d'installation PWA
 
     document.addEventListener("DOMContentLoaded", () => {
+      // 1. Initialiser le visuel des éléments
       document.getElementById('splash-logo').src = APPS_PRODUCTION_CONFIG.logoUrl;
       document.getElementById('app-logo').src = APPS_PRODUCTION_CONFIG.logoUrl;
       document.getElementById('guide-logo').src = APPS_PRODUCTION_CONFIG.logoUrl;
       document.getElementById('app-name').textContent = APPS_PRODUCTION_CONFIG.appName;
+      
+      document.getElementById('apple-touch-icon').href = APPS_PRODUCTION_CONFIG.logoUrl;
 
+      // 2. Lancer les modules de base
       initNotepad();
       createStarsBackground();
       renderPartnerApps();
@@ -529,7 +522,7 @@
     function createStarsBackground() {
       const container = document.getElementById('particle-container');
       const colors = ['#36a100', '#ffcf00', '#007fff'];
-      const particleCount = 20;
+      const particleCount = 25;
 
       for (let i = 0; i < particleCount; i++) {
         const p = document.createElement('div');
@@ -553,7 +546,7 @@
         partnerItem.className = "ripple-btn w-full flex items-center space-x-3.5 bg-white hover:bg-slate-50 border border-slate-100 p-3 rounded-2xl transition-all shadow-sm text-left";
         partnerItem.onclick = () => openInAppViewer(app.link, app.name);
         partnerItem.innerHTML = `
-          <img src="${app.logoUrl}" alt="Logo ${app.name}" class="w-10 h-10 rounded-xl object-cover border border-slate-100 bg-slate-50">
+          <img src="${app.logoUrl}" alt="Logo ${app.name}" class="w-10 h-10 rounded-xl object-contain border border-slate-100 bg-slate-50">
           <div class="flex-1 min-w-0">
             <h4 class="text-xs font-bold text-slate-800 truncate">${app.name}</h4>
             <p class="text-[10px] text-slate-400 truncate">${app.desc}</p>
@@ -566,6 +559,7 @@
       });
     }
 
+    // Module de toasts de notifications (Remplacement de la fonction native d'alert)
     function showNotification(message, type = "info") {
       const container = document.getElementById('toast-container');
       const toast = document.createElement('div');
@@ -699,15 +693,16 @@
       }, 800);
     }
 
-    // =========================================================================================
-    // 📲 LOGIQUE DE DÉTECTION & INSTALLATION MULTI-PLATEFORME (PC, IOS, ANDROID)
-    // =========================================================================================
+    // ==========================================
+    // 📲 LOGIQUE DE DÉTECTION & INSTALLATION PWA
+    // ==========================================
     window.addEventListener('beforeinstallprompt', (e) => {
+        // Empêche l'affichage par défaut de l'invite d'installation Chrome/Android
         e.preventDefault();
         deferredPrompt = e;
         
-        // Affiche la bannière d'installation WhatsApp
-        document.getElementById('install-banner').classList.add('show');
+        // Affiche la bannière d'installation stylisée
+        document.getElementById('install-guide').classList.add('show');
     });
 
     async function executeInstallationPrompt() {
@@ -715,11 +710,12 @@
             deferredPrompt.prompt();
             const { outcome } = await deferredPrompt.userChoice;
             if (outcome === 'accepted') {
-                document.getElementById('install-banner').classList.remove('show');
+                document.getElementById('install-guide').classList.remove('show');
             }
             deferredPrompt = null;
         } else {
-            hideInstallBanner();
+            // Si pas d'événement prompt natif (iOS / Safari ou déjà installé)
+            hideInstallGuide();
         }
     }
 
@@ -729,31 +725,25 @@
       if (!isStandalone) {
         setTimeout(() => {
           const instructionsText = document.getElementById('install-instructions');
-          const userAgent = navigator.userAgent.toLowerCase();
-          const isIOS = /ipad|iphone|ipod/.test(userAgent) && !window.MSStream;
-          const isMac = /macintosh|mac os x/.test(userAgent);
-          const isWindows = /windows/.test(userAgent);
+          const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
           if (isIOS) {
-            instructionsText.innerHTML = "Cliquez sur <strong class='text-[#36a100]'>Partager</strong> puis <strong class='text-[#36a100]'>Sur l'écran d'accueil</strong> pour l'ajouter sur votre iPhone.";
-            document.getElementById('install-banner').classList.add('show');
-          } else if (isWindows || isMac) {
-            // PC Windows ou Mac
-            instructionsText.innerHTML = "Cliquez sur l'icône <strong class='text-[#36a100]'>Installer l'app</strong> dans la barre d'adresse de votre navigateur PC.";
-            document.getElementById('install-banner').classList.add('show');
+            instructionsText.innerHTML = "Cliquez sur <strong class='text-[#007fff]'>Partager</strong> puis <strong class='text-[#36a100]'>Sur l'écran d'accueil</strong> pour l'utiliser en plein écran.";
+            document.getElementById('install-guide').classList.add('show');
           } else {
-            // Android / Autre fallback
+            // Pour Android/Chrome, on attend l'event 'beforeinstallprompt'
+            // Si l'event ne s'est pas encore déclenché après 3s, on affiche quand même de l'aide
             if (!deferredPrompt) {
-               instructionsText.innerHTML = "Cliquez sur les <strong class='text-[#36a100]'>3 points</strong> puis <strong class='text-[#36a100]'>Ajouter à l'écran d'accueil</strong>.";
-               document.getElementById('install-banner').classList.add('show');
+               instructionsText.innerHTML = "Cliquez sur les <strong class='text-[#007fff]'>3 points</strong> puis sur <strong class='text-[#36a100]'>Ajouter à l'écran d'accueil</strong>.";
+               document.getElementById('install-guide').classList.add('show');
             }
           }
-        }, 3000);
+        }, 4000);
       }
     }
 
-    function hideInstallBanner() {
-      document.getElementById('install-banner').classList.remove('show');
+    function hideInstallGuide() {
+      document.getElementById('install-guide').classList.remove('show');
     }
 
     // =======================================================
@@ -770,6 +760,7 @@
                     e.waitUntil(self.clients.claim());
                 });
                 self.addEventListener('fetch', (e) => {
+                    // Stratégie d'interception réseau directe pour maintenir l'accès aux données Firebase en live
                     e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));
                 });
             `;
