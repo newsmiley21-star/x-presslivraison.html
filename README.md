@@ -21,7 +21,7 @@
   <!-- Manifeste PWA généré à la volée via un Blob (Logique WhatsApp du Fichier 2) -->
   <script>
     const manifest = {
-        "name": "CT241 - Workspace Delivery",
+        "name": "X-PRESS LIVRAISON ",
         "short_name": "X-PRESS LIVRAISON Workspace",
         "description": "Portail des livraison ",
         "start_url": "./index.html",
@@ -458,7 +458,7 @@
         {
           name: "Site Web",
           desc: "",
-          logoUrl: "blob:https://gemini.google.com/6229841f-3335-45e2-852e-20a2bd401598",
+          logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
           link: "https://sites.google.com/view/x-press-livraison-gabon-/accueil?read_current=1",
           accentColor: "#007fff" 
         },
@@ -472,7 +472,7 @@
         {
           name: "Suivre mon colis",
           desc: "Consultation et suivi en temps réel.",
-          logoUrl: "blob:https://gemini.google.com/014c18e9-afea-41a5-add3-afa6826ba7a6",
+          logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
           link: "https://newsmiley21-star.github.io/consultation.html/",
           accentColor: "#007fff" 
         }
