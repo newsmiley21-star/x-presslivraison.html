@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>Portail Workspace Privé - CT241</title>
+  <title>X-PRESS LIVRAISON</title>
   
   <!-- Importation de la police Google Plus Jakarta Sans (Style Google Pixel) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,27 +16,27 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Workspace">
-  <link id="apple-touch-icon" rel="apple-touch-icon" href="https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png">
+  <link id="apple-touch-icon" rel="apple-touch-icon" href="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg">
 
   <!-- Manifeste PWA généré à la volée via un Blob (Logique WhatsApp du Fichier 2) -->
   <script>
     const manifest = {
         "name": "CT241 - Workspace Delivery",
-        "short_name": "CT241 Workspace",
-        "description": "Portail logistique premium aux couleurs du Gabon",
+        "short_name": "X-PRESS LIVRAISON Workspace",
+        "description": "Portail des livraison ",
         "start_url": "./index.html",
         "display": "standalone",
         "background_color": "#f8fafc",
         "theme_color": "#36a100",
         "icons": [
             {
-                "src": "https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png",
+                "src": "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
                 "sizes": "192x192",
                 "type": "image/png",
                 "purpose": "any maskable"
             },
             {
-                "src": "https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png",
+                "src": "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
                 "sizes": "512x512",
                 "type": "image/png",
                 "purpose": "any"
@@ -44,11 +44,11 @@
         ],
         "screenshots": [
             {
-                "src": "https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png",
+                "src": "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
                 "sizes": "1024x1024",
                 "type": "image/png",
                 "form_factor": "wide",
-                "label": "Dashboard CT241 Gabon"
+                "label": "Dashboard X-PRESS Gabon"
             }
         ]
     };
@@ -299,7 +299,7 @@
       <div class="ai-glow-container">
         <div class="ai-glow-outer"></div>
         <div class="ai-glow-core"></div>
-        <img id="splash-logo" src="https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png" alt="Logo" class="absolute w-28 h-20 rounded-[1.3rem] object-cover z-10 shadow-xl border-2 border-white">
+        <img id="splash-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="Logo" class="absolute w-28 h-20 rounded-[1.3rem] object-cover z-10 shadow-xl border-2 border-white">
       </div>
 
       <h2 class="text-lg font-extrabold tracking-widest text-slate-800 mt-8 uppercase flex items-center gap-2">
@@ -336,7 +336,7 @@
 
       <!-- En-tête de l'application -->
       <div class="flex items-center space-x-4 mb-6 relative z-10">
-        <img id="app-logo" src="https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png" alt="Logo principal" class="w-16 h-16 rounded-2xl object-cover border border-white shadow-md">
+        <img id="app-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="Logo principal" class="w-16 h-16 rounded-2xl object-cover border border-white shadow-md">
         <div>
           <h1 id="app-name" class="text-xl font-extrabold text-slate-800 tracking-tight leading-none">X-press livraison</h1>
           <span class="text-[10px] bg-emerald-50 text-emerald-600 border border-emerald-100 px-2.5 py-1 rounded-full font-bold tracking-wider uppercase mt-1.5 inline-block">SALUT , déjà de retour ?</span>
@@ -428,11 +428,11 @@
   <div id="install-guide" class="p-5 flex items-center justify-between text-left">
     <div class="flex items-center space-x-3.5">
       <div class="p-1.5 bg-slate-100 rounded-2xl border border-slate-200">
-        <img id="guide-logo" src="https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png" alt="App Logo" class="w-10 h-10 rounded-xl object-contain">
+        <img id="guide-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="App Logo" class="w-10 h-10 rounded-xl object-contain">
       </div>
       <div>
-        <h4 class="text-sm font-extrabold text-slate-800">Installer CT241</h4>
-        <p class="text-[10px] text-slate-500 mt-0.5" id="install-instructions">L'app officielle de logistique du Gabon.</p>
+        <h4 class="text-sm font-extrabold text-slate-800">Installer X-PRESS LIVRAISON</h4>
+        <p class="text-[10px] text-slate-500 mt-0.5" id="install-instructions">L'app officielle de livraison du Gabon.</p>
       </div>
     </div>
     <button id="btn-install" onclick="executeInstallationPrompt()" class="ripple-btn gabon-gradient text-white text-xs font-black px-5 py-3 rounded-2xl transition-all shadow-md active:scale-95">
@@ -451,21 +451,21 @@
   <script>
     // Configuration dynamique des données du portail
     const APPS_PRODUCTION_CONFIG = {
-      logoUrl: "https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png",
+      logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
       appName: "Workspace Delivery +241",
 
       partnerApps: [
         {
-          name: "Notre boutique en ligne",
-          desc: "E-commerce & commandes nationales.",
-          logoUrl: "https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png",
-          link: "https://sites.google.com/view/tpsmarket241/accueil?authuser=0",
+          name: "Site Web",
+          desc: "",
+          logoUrl: "https://ibb.co/Pv5HMvSL][img]https://i.ibb.co/DH72YHqJ/image.png",
+          link: "https://sites.google.com/view/x-press-livraison-gabon-/accueil?read_current=1",
           accentColor: "#007fff" 
         },
         {
-          name: "Demander un devis",
+          name: "Demander une livraison",
           desc: "Expéditions à travers le Gabon.",
-          logoUrl: "https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png",
+          logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
           link: "https://newsmiley21-star.github.io/commandes.html",
           accentColor: "#36a100" 
         },
