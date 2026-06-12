@@ -458,7 +458,7 @@
         {
           name: "Site Web",
           desc: "",
-          logoUrl: "https://ibb.co/Pv5HMvSL][img]https://i.ibb.co/DH72YHqJ/image.png",
+          logoUrl: "blob:https://gemini.google.com/6229841f-3335-45e2-852e-20a2bd401598",
           link: "https://sites.google.com/view/x-press-livraison-gabon-/accueil?read_current=1",
           accentColor: "#007fff" 
         },
@@ -472,16 +472,9 @@
         {
           name: "Suivre mon colis",
           desc: "Consultation et suivi en temps réel.",
-          logoUrl: "https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png",
+          logoUrl: "blob:https://gemini.google.com/014c18e9-afea-41a5-add3-afa6826ba7a6",
           link: "https://newsmiley21-star.github.io/consultation.html/",
           accentColor: "#007fff" 
-        },
-        {
-          name: "Comptabilité & Management",
-          desc: "Analytiques et performances logistiques.",
-          logoUrl: "https://i.ibb.co/xKY76DgR/Gemini-Generated-Image-1pvtp31pvtp31pvt-1.png",
-          link: "https://newsmiley21-star.github.io/CG241/",
-          accentColor: "#ffcf00" 
         }
       ]
     };
