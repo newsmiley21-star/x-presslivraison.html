@@ -452,7 +452,7 @@
     // Configuration dynamique des données du portail
     const APPS_PRODUCTION_CONFIG = {
       logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
-      appName: "Workspace Delivery +241",
+      appName: "...V.1.1.0",
 
       partnerApps: [
         {
