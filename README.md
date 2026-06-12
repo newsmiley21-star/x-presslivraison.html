@@ -745,7 +745,7 @@
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
             const swCode = `
-                const CACHE_NAME = 'X-pressLivraison-pwa-cache-v1';
+                const CACHE_NAME = 'X-press-pwa-cache-v1';
                 self.addEventListener('install', (e) => {
                     self.skipWaiting();
                 });
