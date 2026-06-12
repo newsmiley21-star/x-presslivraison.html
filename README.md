@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>Portail Workspace Privé - X-press delevery</title>
+  <title>X-press livraison</title>
   
   <!-- Importation de la police Google Plus Jakarta Sans (Style Google Pixel) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -223,7 +223,7 @@
       animation: floatUp 12s infinite linear;
     }
     @keyframes floatUp {
-      0% { transform: translateY(110vh) scale(0); opacity: 2; }
+      0% { transform: translateY(110vh) scale(0); opacity: 4; }
       10% { opacity: 0.5; }
       90% { opacity: 0.8; }
       100% { transform: translateY(-10vh) scale(1); opacity: 0; }
@@ -336,10 +336,10 @@
 
       <!-- En-tête de l'application -->
       <div class="flex items-center space-x-4 mb-6 relative z-10">
-        <img id="app-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="Logo principal" class="w-16 h-16 rounded-2xl object-cover border border-white shadow-md">
+        <img id="app-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="Logo principal" class="w-25 h-16 rounded-2xl object-cover border border-white shadow-md">
         <div>
           <h1 id="app-name" class="text-xl font-extrabold text-slate-800 tracking-tight leading-none">X-press livraison</h1>
-          <span class="text-[10px] bg-emerald-50 text-emerald-600 border border-emerald-100 px-2.5 py-1 rounded-full font-bold tracking-wider uppercase mt-1.5 inline-block">SALUT , déjà de retour ?</span>
+          <span class="text-[8px] bg-emerald-50 text-emerald-600 border border-emerald-100 px-2.5 py-1 rounded-full font-bold tracking-wider uppercase mt-1.5 inline-block">SALUT , déjà de retour ?</span>
         </div>
       </div>
 
@@ -428,7 +428,7 @@
   <div id="install-guide" class="p-5 flex items-center justify-between text-left">
     <div class="flex items-center space-x-3.5">
       <div class="p-1.5 bg-slate-100 rounded-2xl border border-slate-200">
-        <img id="guide-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="App Logo" class="w-10 h-10 rounded-xl object-contain">
+        <img id="guide-logo" src="https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg" alt="App Logo" class="w-25 h-15 rounded-xl object-contain">
       </div>
       <div>
         <h4 class="text-sm font-extrabold text-slate-800">Installer X-press</h4>
@@ -442,7 +442,7 @@
 
   <!-- Pied de page -->
   <footer class="text-center p-4 text-[10px] font-bold text-slate-400 tracking-wider uppercase z-10 pointer-events-none">
-    &copy; 2026 Workspace — Tous droits réservés.
+    &copy; 2026 X-press.livraison — Tous droits réservés.
   </footer>
 
   <!-- ========================================== -->
@@ -539,7 +539,7 @@
         partnerItem.className = "ripple-btn w-full flex items-center space-x-3.5 bg-white hover:bg-slate-50 border border-slate-100 p-3 rounded-2xl transition-all shadow-sm text-left";
         partnerItem.onclick = () => openInAppViewer(app.link, app.name);
         partnerItem.innerHTML = `
-          <img src="${app.logoUrl}" alt="Logo ${app.name}" class="w-10 h-10 rounded-xl object-contain border border-slate-100 bg-slate-50">
+          <img src="${app.logoUrl}" alt="Logo ${app.name}" class="w-25 h-15 rounded-xl object-contain border border-slate-100 bg-slate-50">
           <div class="flex-1 min-w-0">
             <h4 class="text-xs font-bold text-slate-800 truncate">${app.name}</h4>
             <p class="text-[10px] text-slate-400 truncate">${app.desc}</p>
