@@ -752,7 +752,7 @@
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
             const swCode = `
-                const CACHE_NAME = 'CT241-pwa-cache-v1';
+                const CACHE_NAME = 'ct241-pwa-cache-v1';
                 self.addEventListener('install', (e) => {
                     self.skipWaiting();
                 });
