@@ -21,7 +21,7 @@
   <!-- Manifeste PWA généré à la volée via un Blob (Logique WhatsApp du Fichier 2) -->
   <script>
     const manifest = {
-        "name": "X-press livraison",
+        "name": "X-press",
         "short_name": "X-press Workspace",
         "description": "Portail de livraisons ",
         "start_url": "./index.html",
@@ -452,7 +452,7 @@
     // Configuration dynamique des données du portail
     const APPS_PRODUCTION_CONFIG = {
       logoUrl: "https://res.cloudinary.com/dyxob1wcj/image/upload/v1781134790/oeqlbzjhuvhbpmrzdpgh.jpg",
-      appName: "X-press livraison",
+      appName: "X-press",
 
       partnerApps: [
         {
